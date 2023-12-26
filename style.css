@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+     background-color: #F5F7F8; 
+}
+.text{
+    font-family: 'Ubuntu', sans-serif;
+    color: blue;
+    font-size: 35px;
+    display: flex;
+    /* align-items: center; */
+     justify-content: center; 
+       margin-top: 10px ;  
+}
+ .box{ 
+     background: #fff; 
+     width: 50%; 
+     max-width: 600px; 
+      margin: 16px auto 0;  
+     border-radius: 5px; 
+     padding: 25px; 
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+ } 
+ .para{
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    color: black;
+ }
+ .btn{
+    background-color: #fff;
+    color: #222;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0 ;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px ;
+    padding: 7px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #222;
+     font-weight: 500;
+ }
+ .next{
+    color: #fff;
+    background-color: blue;
+    border-color: blue;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 20px; 
+    width: 100px;
+    margin: 18px auto 0;
+    padding: 4px;
+    cursor: pointer;
+     display: block; 
+    /* margin-left: 470px; */
+            
+    }
+.num1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 23px;
+    
+}
+.num2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: blue;
+    font-size: 23px;
+}
+.num{
+    display: flex;
+    justify-content: right;
+}
+.btn:hover{
+background: lightblue;
+}
+.newbox{
+    background: #fff; 
+     width: 70%; 
+     max-width: 350px; 
+     height: 200px;
+     margin: 100px auto; /* Center horizontally */
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.result{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: bold;
+    color: #222;
+    padding-top: 20px;
+    font-size: 38px;
+}
+.percentage{
+    font-family: 'Poppins', sans-serif;
+   padding-top: 8px;
+    color: blue;
+    
+    font-size: 25px; 
+}
+.time{
+    font-family: 'Poppins', sans-serif;
+ 
+}
+.start{
+    font-family: 'Poppins', sans-serif;
+ color: #222;
+ font-weight: bold;
+ background: white;
+ border-color: white !important;
+ padding: 7px;
+ font-size: 30px;
+ margin: 100px 520px; /* Center horizontally */
+ cursor: pointer;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ 
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZZ APP</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+    <div class="container">
+       
+            <div> 
+                <p class="text"> Simple Quiz</p>
+            </div>
+            <div id="startContainer">
+                <button onclick="startQuiz()" class="start">START</button>
+            </div>
+            <div id="quiz" class="box" style="display: none;">
+                 <span class="time" id="countdown">20</span> 
+                <div class="num">  
+                <span id="currentQues" class="num1">0/</span>
+                <span id="totalQues" class="num2">10</span>
+            </div>
+                <div>
+                    <p id="displayQues" class="para"> </p>
+                </div>
+                <div id="mainOption">
+                
+                </div>
+                <div>
+                    
+                    <button onclick="nextQuestion()" class="next">NEXT</button>
+                </div>
+           </div>
+         </div>
+              
+<div style="display: none;" id="resultDisplay">
+    
+    <div class="container p-3 newbox">
+<div>
+<h1 class="result">  RESULT:</h1>
+</div>
+<br>
+<div >
+<h2 class="percentage"> YOUR MARK IS: <span id="percentage">0</span>%</h2>
+</div>
+    </div>
+
+</div>
+
+
+
+         
+
+
+
+
+
+
+
+
+
+
+
+    <script src="appp.js"></script>
+</body>
+</html>
